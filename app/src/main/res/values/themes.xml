@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TodoApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cardview_dark_background</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@android:color/darker_gray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/cardview_dark_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextFieldsStyle">
+        <item name="android:background">@android:color/secondary_text_light</item>
+        <item name="android:textColor">@color/text_on_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_field_size</item>
+        <item name="android:padding">@dimen/task_item_padding</item>
+    </style>
+</resources>
