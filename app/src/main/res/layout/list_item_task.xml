@@ -10,17 +10,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
+        android:checked="false"
         android:gravity="center_vertical"
-        android:paddingEnd="8dp"
-        android:checked="false" />
+        android:paddingEnd="8dp" />
 
     <TextView
         android:id="@+id/task_item_name"
+        style="@style/TextFieldsStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:singleLine="true"
-        style="@style/TextFieldsStyle"  />
+        android:singleLine="true" />
 
     <TextView
         android:id="@+id/task_item_date"
@@ -36,10 +36,4 @@
         android:layout_weight="0.1"
         app:srcCompat="@drawable/ic_house" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.1"
-        app:srcCompat="@drawable/ic_studies" />
 </LinearLayout>

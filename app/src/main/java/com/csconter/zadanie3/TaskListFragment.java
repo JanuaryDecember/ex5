@@ -130,7 +130,6 @@ public class TaskListFragment extends Fragment {
 
             taskCheckbox = itemView.findViewById(R.id.taskCheckbox);
             iconImageView = itemView.findViewById(R.id.imageView2);
-            otherIconImageView = itemView.findViewById(R.id.imageView3);
             nameTextView = itemView.findViewById(R.id.task_item_name);
             dateTextView = itemView.findViewById(R.id.task_item_date);
         }
@@ -148,10 +147,8 @@ public class TaskListFragment extends Fragment {
 
             if (task.getCategory() == Category.STUDIES) {
                 iconImageView.setImageResource(R.drawable.ic_studies);
-                otherIconImageView.setVisibility(View.GONE);
             } else if (task.getCategory() == Category.HOME) {
                 iconImageView.setImageResource(R.drawable.ic_house);
-                otherIconImageView.setVisibility(View.GONE);
             }
 
 
