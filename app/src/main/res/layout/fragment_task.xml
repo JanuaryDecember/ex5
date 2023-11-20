@@ -51,5 +51,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:padding="16dp"
-        android:layout_margin="8dp" />
+        android:layout_margin="8dp"
+        style="@style/SecondStyle"/>
 </LinearLayout>
